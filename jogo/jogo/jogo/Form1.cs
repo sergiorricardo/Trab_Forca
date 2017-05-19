@@ -13,7 +13,7 @@ namespace jogo
     public partial class frmJogo : Form
     {
         private String[] palavras; // cria vetor com as palavras
-        private String[] dicas; // idem //////   /////////
+        private String[] dicas; // idem //////   /////////    
         private String palavra;
         private String tela;
         private int tentativas;
@@ -34,7 +34,7 @@ namespace jogo
             palavras[1] = "superMan";
             dicas[1] = "Super herói";
 
-            palavras[2] = "computador";
+            palavras[2] = "Notebook";
             dicas[2] = "Equipamento eletrónico";
         }
         private void IniciarJogo() {
